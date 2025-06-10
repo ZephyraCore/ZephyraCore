@@ -1,6 +1,6 @@
 version: '3'
 services:
-  sylphia:
+  ZephyraCore:
     build: .
     ports:
       - "8000:8000"
