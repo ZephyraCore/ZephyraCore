@@ -14,10 +14,10 @@ function setupExportButton(data) {
         const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
         const a = document.createElement("a");
         a.href = URL.createObjectURL(blob);
-        a.download = "sylphia_report.json";
+        a.download = "ZephyraCore_report.json";
         a.click();
     };
     document.body.appendChild(btn);
 }
 
-startSylphiaApp();
+startZephyraCoreApp();
